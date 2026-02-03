@@ -1,0 +1,11 @@
+---
+---
+@import "{{ site.theme }}";
+
+.header-image {
+  width: 100%; /* Make image span the full width of the header */
+  height: auto; /* Maintain aspect ratio */
+  /* Add other styles as needed, e.g., margin, padding */
+  object-fit: cover; /* Ensures image covers the area without stretching, might crop parts */
+}
+
