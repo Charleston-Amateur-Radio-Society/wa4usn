@@ -1,12 +1,21 @@
+# Site settings
 title: Charleston Amateur Radio Society
-description: Serving the Lowcountry amateur radio community since 1971
-callsign: WA4USN
+email: mike@w4kwc.com
+description: >-
+  Welcome to the Charleston Amateur Radio Society.
+  This club was established in 1971.
 baseurl: "/wa4usn"
-url: "https://liam-maheu.github.io"
+url: "https://charleston-amateur-radio-society.github.io"
+callsign: WA4USN
 
 # Build settings
 markdown: kramdown
 permalink: /posts/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Collections
 collections:
@@ -28,3 +37,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - node_modules
+  - vendor
