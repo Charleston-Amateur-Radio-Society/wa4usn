@@ -21,7 +21,7 @@ title: Charleston Amateur Radio Society
 email: mike@w4kwc.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the Charleston Amateur Radio Society.
-  This club was established in 1971. For a detailed history select History from the menu above.
+  This club was established in 1971. For a detailed history select About Us from the menu above.
 baseurl: "/wa4usn" # the subpath of your site, e.g. /blog
 url: "https://charleston-amateur-radio-society.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wa4usn
@@ -42,6 +42,10 @@ plugins:
 minima:
  show_excerpts: true
  hide_site_feed_link: true  # `false` or `null` by default
+ header_pages:
+  - about.md
+  - activities.md
+  - membership.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
