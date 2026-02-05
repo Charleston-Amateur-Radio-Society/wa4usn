@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "MOU with Patriots Point!"
-date:   2026-02-03 11:51:01 -0500
+date:   2026-02-03
 categories: cars update
+excerpt: "This is an ecample of embedding a PDF"
 ---
 
 

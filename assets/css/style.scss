@@ -1,6 +1,9 @@
 ---
 ---
-@import "minima/skins/{{ site.minima.skin | default: 'classic' }}", "minima/initialize";
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
 
 body {
   background-color: #FFFAF0; // Your custom background color
@@ -21,4 +24,7 @@ body {
 }
 .site-title {
     color: #F54927; // Replace #yourcolor with your desired color code
+}
+.a {
+  color: #F54927
 }

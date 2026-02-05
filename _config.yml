@@ -29,12 +29,19 @@ github_username:  mmaheu
 
 # Build settings
 remote_theme: jekyll/minima@1e8a445
+# theme: minima
 plugins:
-  - jekyll-remote-theme
+ - jekyll-remote-theme
 
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# minima configs
+minima:
+ show_excerpts: true
+ hide_site_feed_link: true  # `false` or `null` by default
 
 # Exclude from processing.
 # The following items will not be processed, by default.
